@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/listviewdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF">
+
+        <ImageView
+            android:id="@+id/avata"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/coupon">
+        </ImageView>
+        <TextView
+            android:id="@+id/tieudethongbao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Ngại ra ngoài cứ để nhà lo"></TextView>
+        <ImageView
+            android:id="@+id/tick1_118"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/tick"
+            android:layout_below="@id/tieudethongbao"
+            android:layout_marginLeft="110dp"></ImageView>
+        <TextView
+            android:id="@+id/mota1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="40dp"
+            android:textSize="20dp"
+            android:text="1 ly cũng giao"/>
+
+
+    </RelativeLayout>
+</RelativeLayout>
